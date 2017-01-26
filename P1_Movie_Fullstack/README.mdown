@@ -1,0 +1,7 @@
+<h1>Read me for P1-- Movie Trailer Website</h1>
+
+*Make sure that the files: media.py, ggw.py, and P1_python_movies.py are in the same folder
+*Open the file ggw in python and run the module
+*A page should open on your default browser, if not go in the file directory and double click on golden_globe_winners.html
+*Scroll through the movies to see all movies and see the related information below the movie
+*To view the trailer, click on the movie poster, the trailer will open.  
