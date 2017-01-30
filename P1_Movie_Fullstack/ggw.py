@@ -3,7 +3,7 @@ import urllib
 import json
 import P1_python_movies
 
-#Create a function that will pull data from the omdb api
+# This is a function that will pull data from the omdb api
 def pull_api_data(movie_title):
     movie_title_formatted = movie_title.replace(" ", "+")
     connection = urllib.urlopen("http://www.omdbapi.com/?t="
@@ -16,7 +16,9 @@ def pull_api_data(movie_title):
             'rating': output_json['tomatoMeter']}
     connection.close()
 
-#Create instances of Movies for each golden globe winer
+# This section calls the movies call from media and 
+# creates instances for each movie
+
 moonlight = media.Movies(
     pull_api_data("Moonlight")['Title'],
     pull_api_data("Moonlight")['Storyline'],
@@ -63,7 +65,7 @@ zootopia = media.Movies(pull_api_data("Zootopia")['Title'],
     "https://www.youtube.com/watch?v=jWM0ct-OLsM", 
     pull_api_data("Zootopia")['rating'])
 
-#Create a list of movies to use in the open movies page function
+# This is a list of movies to use in the open movies page function
 movies = [la_la_land, elle, manchester_by_the_sea,
           fences, nocturnal_animals, zootopia]
 
