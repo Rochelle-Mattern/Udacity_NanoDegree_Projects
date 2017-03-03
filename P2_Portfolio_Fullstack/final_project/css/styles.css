@@ -1,0 +1,39 @@
+body{
+    font-family: 'Lato', sans-serif;
+    color:#2d3c49;
+    font-weight: 300;
+}
+
+.top-margin-15{
+    margin-top: 15px;
+}
+
+.text-large{
+    font-size: 32px;
+}
+
+.text-thin{
+    font-weight:100;
+}
+
+.text-regular{
+    font-weight: 400;
+}
+
+.text-muted{
+    color:#7d97ad;
+}
+
+.title-large{
+    font-size: 50px;
+}
+
+hr{
+    border: none;
+    height: 4px;
+    color:#7d97ad;
+    background-color:#7d97ad;
+}
+
+
+
